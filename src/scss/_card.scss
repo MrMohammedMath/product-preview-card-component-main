@@ -13,13 +13,11 @@ $card-border-radius: 10px;
     }
 
     &__img {
-        content: url('./images/image-product-mobile.jpg');
         width: 100%;
         border-radius: $card-border-radius $card-border-radius 0 0;
 
 
         @include screen-md {
-            content: url('./images/image-product-desktop.jpg');
             width: 25vw;
 
             border-radius: $card-border-radius 0 0 $card-border-radius;
